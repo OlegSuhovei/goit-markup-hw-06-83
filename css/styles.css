@@ -820,7 +820,7 @@ img {
   border-radius: 2px;
 
   transition: background-color var(--duration) var(--timing-function),
-    border var(--duration) var(--timing-function);
+              border var(--duration) var(--timing-function);
 }
 
 .agreement-checkbox:checked + .agreement-icon {
