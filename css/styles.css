@@ -561,7 +561,7 @@ img {
   color: var(--title-text-color);
   background-color: transparent;
 
-  border: 1px solid var(--title-text-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
@@ -574,7 +574,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
 
-  color: var(--title-text-color);
+ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-button {
@@ -703,7 +703,7 @@ img {
 
 .modal-form-text {
   display: block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 
   font-weight: 500;
   font-size: 16px;
@@ -719,7 +719,7 @@ img {
 }
 
 .modal-form-group {
-  margin-bottom: 08px;
+  margin-bottom:(not)last-child 08px;
 }
 
 .form-label {
@@ -739,6 +739,8 @@ img {
 }
 
 .form-input {
+  display: block;
+
   padding: 08px 16px 08px 38px;
 
   width: 100%;
@@ -771,6 +773,8 @@ img {
 }
 
 .modal-form-group textarea {
+  margin-bottom: 16px;
+
   height: 120px;
   padding-left: 16px;
   resize: none;
@@ -787,7 +791,7 @@ img {
 .modal-agreement {
   position: relative;
 
-  margin: 16px 0 24px;
+  margin-bottom: 24px;
 
   display: flex;
   align-items: center;
